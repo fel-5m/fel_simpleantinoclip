@@ -38,7 +38,7 @@ local function Init()
                 if not IsPedInAnyVehicle(_ped, false) and 
                    not IsPedInParachuteFreeFall(_ped) and 
                    not IsPedJumping(_ped) and
-                   not IsPedFalling(_ped) and 
+                   not IsPedRagdoll(_ped) and 
                    not IsEntityAttached(_ped) and 
                    not IsPedSwimming(_ped) and 
                    not IsPedSwimmingUnderWater(_ped) and 
